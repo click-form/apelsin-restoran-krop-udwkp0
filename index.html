@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ресторан Апельсин у Кропивницькому</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🍊</span>
+                <span class="logo-text">Апельсин</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html" class="active" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Послуги та зали</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <a href="tel:+380504573940" class="header-phone">+380 50 457 3940</a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-bg">
+                <img src="images/photo-01.jpg" alt="Ресторан Апельсин інтер'єр" fetchpriority="high">
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1 data-i18n="hero_title">Ресторан Апельсин у Кропивницькому — затишок, вишукана кухня та незабутні події</h1>
+                <p data-i18n="hero_subtitle">Відчуйте атмосферу гармонії, тепла та неперевершеного смаку у серці нашого міста.</p>
+                <div class="hero-btns">
+                    <a href="contacts.html" class="btn btn-primary" data-i18n="btn_reserve">Забронювати столик</a>
+                    <a href="services.html" class="btn btn-outline" data-i18n="btn_explore">Наші послуги</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about-preview">
+            <div class="container">
+                <div class="grid-2">
+                    <div class="about-preview-text">
+                        <span class="badge" data-i18n="welcome_badge">Ласкаво просимо</span>
+                        <h2 data-i18n="about_heading">Простір затишку та смаку</h2>
+                        <p data-i18n="about_short">
+                            Ресторан «Апельсин» розташований у затишному куточку Кропивницького за адресою вул. Шосейна, 4. Заклад ідеально підходить як для романтичних вечорів, так і для гучних сімейних свят, банкетів чи дружніх зустрічей.
+                        </p>
+                        <p data-i18n="about_short_2">
+                            Меню ресторану пропонує широкий вибір страв європейської кухні, приготованих зі свіжих та якісних інгредієнтів. Професійне обслуговування та увага до кожного деталю створюють справжнє відчуття свята.
+                        </p>
+                        <a href="about.html" class="btn btn-text" data-i18n="read_more">Дізнатися більше &rarr;</a>
+                    </div>
+                    <div class="about-preview-image">
+                        <img src="images/photo-02.jpg" alt="Ресторан Апельсин екстер'єр та атмосфера" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-light features-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="badge" data-i18n="features_badge">Чому обирають нас</span>
+                    <h2 data-i18n="features_heading">Переваги ресторану Апельсин</h2>
+                </div>
+                <div class="grid-3">
+                    <div class="feature-card">
+                        <div class="feature-icon">🏛️</div>
+                        <h3 data-i18n="feat_1_title">Різноманітні зали</h3>
+                        <p data-i18n="feat_1_desc">Простора банкетна зала, дві затишні VIP-зали та мальовничі дерев'яні будиночки на свіжому повітрі.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🍽️</div>
+                        <h3 data-i18n="feat_2_title">Європейська кухня</h3>
+                        <p data-i18n="feat_2_desc">Широкий вибір вишуканих страв, приготованих зі свіжих та якісних інгредієнтів професійними кухарями.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🅿️</div>
+                        <h3 data-i18n="feat_3_title">Зручна парковка</h3>
+                        <p data-i18n="feat_3_desc">Передбачена комфортна автостоянка для відвідувачів на автомобілях для вашого спокою.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta-section">
+            <div class="container text-center">
+                <h2 data-i18n="cta_heading">Заплануйте свій незабутній вечір</h2>
+                <p data-i18n="cta_text">Зв'яжіться з нами телефоном або завітайте за адресою вул. Шосейна, 4, Кропивницький.</p>
+                <a href="contacts.html" class="btn btn-primary" data-i18n="btn_contacts">Контакти та адреса</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">🍊</span>
+                    <span class="logo-text">Апельсин</span>
+                </a>
+                <p data-i18n="footer_desc">Ресторан європейської кухні у Кропивницькому.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_links">Швидкі посилання</h4>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Послуги та зали</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts">Контакти</h4>
+                <p>вул. Шосейна, 4, Кропивницький</p>
+                <p><a href="tel:+380504573940">+380 50 457 3940</a></p>
+                <p data-i18n="footer_hours">Пн-Нд: 12:00 - 23:59</p>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/apelsin_restoran_krop/" target="_blank" rel="noopener">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; Ресторан Апельсин. Кропивницький, Україна.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
