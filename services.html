@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Послуги та зали — Ресторан Апельсин</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🍊</span>
+                <span class="logo-text">Апельсин</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" class="active" data-i18n="nav_services">Послуги та зали</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <a href="tel:+380504573940" class="header-phone">+380 50 457 3940</a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="services_page_title">Послуги та зали ресторану</h1>
+                <p data-i18n="services_page_subtitle">Організація подій, банкетів та затишний відпочинок</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="images/photo-05.jpg" alt="Банкетна зала" loading="lazy">
+                        </div>
+                        <div class="service-content">
+                            <h3 data-i18n="serv_1_title">Простора банкетна зала</h3>
+                            <p data-i18n="serv_1_desc">Ідеальне місце для святкування весіль, ювілеїв, корпоративних вечірок та масштабних сімейних подій. Просторість, святкова атмосфера та бездоганне обслуговування.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="images/photo-06.jpg" alt="VIP-зали" loading="lazy">
+                        </div>
+                        <div class="service-content">
+                            <h3 data-i18n="serv_2_title">Затишні VIP-зали</h3>
+                            <p data-i18n="serv_2_desc">Дві окремі затишні зали створені для приватних зустрічей, ділових обідів або камерних свят у колі найближчих людей в атмосфері повної конфіденційності.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="images/photo-07.jpg" alt="Дерев'яні будиночки" loading="lazy">
+                        </div>
+                        <div class="service-content">
+                            <h3 data-i18n="serv_3_title">Будиночки на свіжому повітрі</h3>
+                            <p data-i18n="serv_3_desc">Мальовничі дерев'яні будиночки дозволяють насолоджуватися стравами на свіжому повітрі, незалежно від сезону, відчуваючи максимальний затишок та єднання з природою.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="images/photo-08.jpg" alt="Європейська кухня" loading="lazy">
+                        </div>
+                        <div class="service-content">
+                            <h3 data-i18n="serv_4_title">Європейська кухня</h3>
+                            <p data-i18n="serv_4_desc">Широкий вибір вишуканих страв європейської кухні, приготованих професійними кухарями виключно зі свіжих та якісних інгредієнтів.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">🍊</span>
+                    <span class="logo-text">Апельсин</span>
+                </a>
+                <p data-i18n="footer_desc">Ресторан європейської кухні у Кропивницькому.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_links">Швидкі посилання</h4>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Послуги та зали</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts">Контакти</h4>
+                <p>вул. Шосейна, 4, Кропивницький</p>
+                <p><a href="tel:+380504573940">+380 50 457 3940</a></p>
+                <p data-i18n="footer_hours">Пн-Нд: 12:00 - 23:59</p>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/apelsin_restoran_krop/" target="_blank" rel="noopener">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; Ресторан Апельсин. Кропивницький, Україна.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
