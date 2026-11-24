@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти — Ресторан Апельсин</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🍊</span>
+                <span class="logo-text">Апельсин</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Послуги та зали</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" class="active" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <a href="tel:+380504573940" class="header-phone">+380 50 457 3940</a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="contacts_page_title">Контакти</h1>
+                <p data-i18n="contacts_page_subtitle">Ми завжди раді бачити вас у ресторані «Апельсин»</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="grid-2">
+                    <div class="contact-info">
+                        <h2 data-i18n="contact_info_heading">Зв'яжіться з нами</h2>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h3 data-i18n="contact_address_title">Адреса</h3>
+                                <p>вул. Шосейна, 4, Кропивницький, Кіровоградська область, Україна</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h3 data-i18n="contact_phone_title">Телефон</h3>
+                                <p><a href="tel:+380504573940">+380 50 457 3940</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">⏰</div>
+                            <div>
+                                <h3 data-i18n="contact_hours_title">Графік роботи</h3>
+                                <p data-i18n="contact_hours_val">Пн-Нд: 12:00 - 23:59</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">🌐</div>
+                            <div>
+                                <h3 data-i18n="contact_social_title">Соціальні мережі</h3>
+                                <p><a href="https://www.instagram.com/apelsin_restoran_krop/" target="_blank" rel="noopener">Instagram @apelsin_restoran_krop</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="map-container">
+                        <h2 data-i18n="contact_map_heading" class="mb-4">Ми на карті</h2>
+                        <div class="map-frame">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2635.8504!2d32.2285153!3d48.5135111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDMwJzQ4LjciTiAzMsKwMTMnNDIuNyJF!5e0!3m2!1suk!2sua!4v1600000000000!5m2!1suk!2sua" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" title="Ресторан Апельсин на карті"></iframe>
+                        </div>
+                        <div class="mt-4">
+                            <a href="https://www.google.com/maps/place/%D0%90%D0%BF%D0%B5%D0%BB%D1%8C%D1%81%D0%B8%D0%BD/@48.5135111,32.2285153,17z/" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="btn_open_map">Відкрити у Google Maps</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">🍊</span>
+                    <span class="logo-text">Апельсин</span>
+                </a>
+                <p data-i18n="footer_desc">Ресторан європейської кухні у Кропивницькому.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_links">Швидкі посилання</h4>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Послуги та зали</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts">Контакти</h4>
+                <p>вул. Шосейна, 4, Кропивницький</p>
+                <p><a href="tel:+380504573940">+380 50 457 3940</a></p>
+                <p data-i18n="footer_hours">Пн-Нд: 12:00 - 23:59</p>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/apelsin_restoran_krop/" target="_blank" rel="noopener">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; Ресторан Апельсин. Кропивницький, Україна.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
